@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "width": 64,
+  "height": 9,
+  "duration": 6.225,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.005,
+      "\u001b]777;notify;Command completed;asciinema rec\u0007\u001b]0;powers@linux:~\u0007\u001b]7;file://linux/home/powers\u0007"
+    ],
+    [
+      0.005,
+      "[powers@linux ~]$ "
+    ],
+    [
+      0.1,
+      "l"
+    ],
+    [
+      0.1,
+      "s"
+    ],
+    [
+      1,
+      "\r\n"
+    ],
+    [
+      0.005,
+      "\u001b[0m\u001b[38;5;33mApplications\u001b[0m  \u001b[38;5;33mdotfiles\u001b[0m   \u001b[38;5;33mMusic\u001b[0m     \u001b[38;5;33mPublic\u001b[0m     \u001b[38;5;33mVideos\u001b[0m\r\n\u001b[38;5;33mDesktop\u001b[0m       \u001b[38;5;33mDownloads\u001b[0m  \u001b[38;5;33mPictures\u001b[0m  \u001b[38;5;33mServices\u001b[0m\r\n\u001b[38;5;33mDocuments\u001b[0m     \u001b[38;5;33mgo\u001b[0m         \u001b[38;5;33mProjects\u001b[0m  \u001b[38;5;33mTemplates\u001b[0m\r\n"
+    ],
+    [
+      0.005,
+      "\u001b]777;notify;Command completed;ls\u0007\u001b]0;powers@linux:~\u0007\u001b]7;file://linux/home/powers\u0007"
+    ],
+    [
+      0.005,
+      "[powers@linux ~]$ "
+    ],
+    [
+      5,
+      ""
+    ]
+  ]
+}
