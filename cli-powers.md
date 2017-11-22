@@ -132,10 +132,18 @@ Isso porquê o valor padrão para o parâmetro deste comando é o seu _home_. Ex
 cd
 ```
 
+Dessa forma, executar `cd` sem passar um diretório é a mesma coisa que usar a referência `~` ao _home_ como parâmetro:
+```bash
+cd ~
+```
+
+
+A forma fácil de se navegar para o direito "anterior" ao atual é usando a referência `..`, exemplo:
 ```bash
 cd ..
 ```
 
+Uma outra referência que o `cd` oferece para facilitar é o `-` (sinal de menos), usa-lo como parâmetro serve para voltar ao diretório que se estava antes da última execução do `cd`:
 ```bash
 cd -
 ```
