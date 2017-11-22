@@ -126,13 +126,15 @@ Por exemplo, para navegar até o diretório raíz, basta digitar o exemplo abaix
 cd /
 ```
 
+Caso você não passe nenhum parâmetro para o comando `cd` o que irá acontecer é que você será levado ao seu diretório _home_.
+Isso porquê o valor padrão para o parâmetro deste comando é o seu _home_. Exemplo:
 ```bash
 cd
-`
+```
 
 ```bash
 cd ..
-`````
+```
 
 ```bash
 cd -
