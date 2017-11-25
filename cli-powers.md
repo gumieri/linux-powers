@@ -21,7 +21,7 @@ Porém este _shell_ foi completamente reescrito por Setephen Bourne e distribuid
 
 Atualmente existem diversos _shells_, o mais comum sendo o `bash` ou _Bourne Again Shell_ que é uma brincadeira com o termo _Born again_ ("nascido de novo" em inglês).
 
-## `bash`
+## O _Shell_ `bash`
 
 A linguagem de comandos `bash` está presente na maioria dos sistemas operacionais descendentes ou inspirados no _Unix_ como _shell_.
 O _macOS X_ e diversas distribuições _Linux_ são exemplos desses sistemas.
@@ -39,7 +39,7 @@ A maioria destes comandos terão nomes extremamente curtos para serem rápidos d
 
 [Mais…](shell/bash.md)
 
-## `ls`
+## Comando `ls`
 
 O comando `ls` lista o conteúdo do diretório.
 Se você acabou de abrir o seu emulador de terminal, provavelmente o que lhe será apresentado como reposta é o conteúdo de seu diretório _home_.
@@ -115,9 +115,11 @@ O `.` é muito utilizado em casos que queremos executar algum arquivo que está 
 Neste exemplo, existe um arquivo executável chamado `asciiquarium` no diretório que estamos e para poder executá-lo, precisamos informar que estamos executando algo do diretório atual.
 Isso acontece por questões de segurança, executar alguma coisa sempre envolve algum risco e esta característica traz clareza a o que o usuário está querendo executar.
 
-## `pwd`
+## Comando `pwd`
 
-## `cd`
+O comando `pwd`
+
+## Comando `cd`
 
 Para navegar por estes diretórios existe o comando `cd` (_change directory_).
 Ele aceita um parâmetro, o diretório para o qual você pretende ir.
@@ -149,36 +151,36 @@ Uma outra referência que o `cd` oferece para facilitar é o `-` (sinal de menos
 cd -
 ```
 
-## _Autocomplete_
+## O atalho para _Autocomplete_
 
-## `file`
+## Comando `file`
 
-## `locate`
+## Comando `locate`
 
 - `updatedb`
 
-## `mv`
+## Comando `mv`
 
-## `cp`
+## Comando `cp`
 
-## `rm`
+## Comando `rm`
 
-## `mkdir`
+## Comando `mkdir`
 
-## `rmdir`
+## Comando `rmdir`
 
-## `touch`
+## Comando `touch`
 
 - atualiza a data de edição de um arquivo
 
 - caso não exista o arquivo requisitado, cria o arquivo vazio
 
-## `history`
+## Comando `history`
 
-## Control C
+## O atalho **Control C**
 
-## `whatis`, `man`
+## Os comandos `whatis` e `man`
 
-## _Flags_
+## As _Flags_
 
-## _Status_ que os comandos retornam
+## Os _Status_ que os comandos retornam
