@@ -110,11 +110,12 @@ Enquanto o `..` é uma referência ao diretório "pai" (ou _parent_), o diretór
 Todo diretório possui uma referência a ele mesmo (`.`) e ao seu _parent_ (`..`), no caso do diretório `/`, seu parent é ele mesmo.
 O `.` é muito utilizado em casos que queremos executar algum arquivo que está logo no diretório que estamos:
 
-```bash
-./faz_pizza
-```
-Neste exemplo, existe um arquivo executável chamado `faz_pizza` no diretório que estamos e para poder executá-lo, precisamos informar que estamos executando algo do diretório atual.
+![executa asciiquarium](media/executa-asciiquarium.gif)
+
+Neste exemplo, existe um arquivo executável chamado `asciiquarium` no diretório que estamos e para poder executá-lo, precisamos informar que estamos executando algo do diretório atual.
 Isso acontece por questões de segurança, executar alguma coisa sempre envolve algum risco e esta característica traz clareza a o que o usuário está querendo executar.
+
+## `pwd`
 
 ## `cd`
 
@@ -147,8 +148,6 @@ Uma outra referência que o `cd` oferece para facilitar é o `-` (sinal de menos
 ```bash
 cd -
 ```
-
-## `pwd`
 
 ## _Autocomplete_
 
