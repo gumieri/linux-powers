@@ -134,7 +134,7 @@ Por exemplo, para navegar até o diretório raíz, basta digitar o exemplo abaix
 cd /
 ```
 
-Caso você não passe nenhum parâmetro para o comando `cd` o que irá acontecer é que você será levado ao seu diretório _home_.
+Caso não informado qualquer parâmetro para o comando `cd` o que irá acontecer é que o comando irá assumir o valor padrão e nos levará para o diretório _home_.
 Isso porquê o valor padrão para o parâmetro deste comando é o seu _home_. Exemplo:
 ```bash
 cd
@@ -145,13 +145,13 @@ Dessa forma, executar `cd` sem passar um diretório é a mesma coisa que usar a 
 cd ~
 ```
 
-
-A forma fácil de se navegar para o direito "anterior" ao atual é usando a referência `..`, exemplo:
+A forma fácil de se navegar para o direito "pai" do atual é usando a referência `..` vista anteriormente, exemplo:
 ```bash
 cd ..
 ```
 
-Uma outra referência que o `cd` oferece para facilitar é o `-` (sinal de menos), usa-lo como parâmetro serve para voltar ao diretório que se estava antes da última execução do `cd`:
+Uma outra referência que o `cd` oferece para facilitar é o `-` (sinal de menos),
+usa-lo como parâmetro serve para voltar ao diretório que se estava antes da última execução do `cd`:
 ```bash
 cd -
 ```
