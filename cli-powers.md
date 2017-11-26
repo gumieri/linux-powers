@@ -156,7 +156,22 @@ usa-lo como parâmetro serve para voltar ao diretório que se estava antes da ú
 cd -
 ```
 
-## O atalho para _Autocomplete_
+## Ganhando agilidade com o _autocomplete_
+
+O "segredo" para ganhar agilidade na digitação na interface de comandos do `bash` é o _autocomplete_ ativado pela tecla [`Tab`](https://pt.wikipedia.org/wiki/Tabula%C3%A7%C3%A3o).
+Este é um recurso bastante inteligente que nos poupa digitação.
+
+Quando se está digitando qualquer coisa e preciona-se o `Tab`, é feita uma busca por todos os possíveis valores para a palavra que está sendo digitada.
+Caso só exista uma opção, a palavra é completada automaticamente com um espaço ao final para continuar a digitar outras coisas.
+
+Caso existam mais opções, somente será auto-completada a palavra até o ponto em comum com as outras opções:
+
+![autocomplete file .bash_profile](media/autocomplete.gif)
+
+Caso esteja digitando algo e o _autocomplete_ não completar nada é porque já existe mais de uma opção para o próximo caracter.
+Apertar mais uma vez o `Tab` nesta situação resulta em uma lista dos possíveis valores para o que se está sendo digitado.
+
+Caso a lista de valores possíveis seja grande, o `bash` irá perguntar se tem certeza que deseja listar todas as opções.
 
 ## Comando `file`
 

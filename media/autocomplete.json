@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 10,
+  "duration": 16.242372,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.116465,
+      "\u001b]777;notify;Command completed;ls .bash_profile \u0007\u001b]0;rgumieri@midgard:~\u0007\u001b]7;file://midgard/home/rgumieri\u0007"
+    ],
+    [
+      0.00031,
+      "[rgumieri@midgard ~]$ "
+    ],
+    [
+      0.500034,
+      "f"
+    ],
+    [
+      0.112163,
+      "i"
+    ],
+    [
+      0.183888,
+      "l"
+    ],
+    [
+      0.104021,
+      "e"
+    ],
+    [
+      0.236106,
+      " "
+    ],
+    [
+      0.795908,
+      "."
+    ],
+    [
+      1.215972,
+      "b"
+    ],
+    [
+      0.844963,
+      "\u0007"
+    ],
+    [
+      0.883087,
+      "a"
+    ],
+    [
+      0.7553,
+      "\u0007sh"
+    ],
+    [
+      3.172472,
+      "_"
+    ],
+    [
+      0.747349,
+      "\u0007"
+    ],
+    [
+      1.652098,
+      "\r\n.bash_history  .bash_logout   .bash_profile  \r\n[rgumieri@midgard ~]$ file .bash_"
+    ],
+    [
+      3.619394,
+      "p"
+    ],
+    [
+      0.367661,
+      "rofile "
+    ],
+    [
+      0.800316,
+      "\r\n"
+    ],
+    [
+      0.12453,
+      ".bash_profile: ASCII text\r\n"
+    ],
+    [
+      0.009037,
+      "\u001b]777;notify;Command completed;file .bash_profile \u0007\u001b]0;rgumieri@midgard:~\u0007\u001b]7;file://midgard/home/rgumieri\u0007"
+    ],
+    [
+      3.6e-05,
+      "[rgumieri@midgard ~]$ "
+    ]
+  ]
+}
