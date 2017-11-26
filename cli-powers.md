@@ -160,6 +160,18 @@ cd -
 
 ## Comando `file`
 
+Uma característica interessante dos sistemas operacionais _Linux_ e _Unix_ é que estes não dependem de extensões (ex: `.jpg`, `.pdf`, `.doc`, etc.) dos arquivos para determinar o seu tipo.
+O que acontece é que existem outras formas de se determinar o tipo de um arquivo, o uso de extensões que foi popularizado pelo _Windows_ não é a única forma.
+
+Outras formas de se fazer isso é com base no início do conteúdo de o arquivo buscando por uma assinatura ([file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures) - em inglês),
+ou buscando pelo [_MIME Type_](https://pt.wikipedia.org/wiki/Tipo_de_m%C3%ADdia_da_Internet).
+
+O comando `file` serve para identificarmos o tipo de um arquivo. Este comando recebe um parâmetro, que é o nome do arquivo que deseja-se identificar.
+
+![file asciiquarium](media/file.gif)
+
+Caso pergunte por um diretório, a resposta será simplesmente `file-system: directory`.
+
 ## Comando `locate`
 
 - `updatedb`

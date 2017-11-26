@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 10,
+  "duration": 3.769789,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.11837,
+      "\u001b]777;notify;Command completed;sudo dnf -y install https://dl.folkswithhats.org/fedora/$(rpm -E %fedora)/RPMS/folkswithhats-release.noarch.rpm\u0007\u001b]0;rgumieri@midgard:~\u0007\u001b]7;file://midgard/home/rgumieri\u0007"
+    ],
+    [
+      0.000149,
+      "[rgumieri@midgard ~]$ "
+    ],
+    [
+      0.972224,
+      "f"
+    ],
+    [
+      0.131855,
+      "i"
+    ],
+    [
+      0.204045,
+      "l"
+    ],
+    [
+      0.068002,
+      "e"
+    ],
+    [
+      0.16408,
+      " "
+    ],
+    [
+      0.228004,
+      "a"
+    ],
+    [
+      0.071816,
+      "s"
+    ],
+    [
+      0.160011,
+      "c"
+    ],
+    [
+      0.237654,
+      "iiquarium "
+    ],
+    [
+      1.404686,
+      "\r\n"
+    ],
+    [
+      0.0018,
+      "asciiquarium: Perl script text executable\r\n"
+    ],
+    [
+      0.005872,
+      "\u001b]777;notify;Command completed;file asciiquarium \u0007\u001b]0;rgumieri@midgard:~\u0007\u001b]7;file://midgard/home/rgumieri\u0007"
+    ],
+    [
+      4e-05,
+      "[rgumieri@midgard ~]$ "
+    ]
+  ]
+}
