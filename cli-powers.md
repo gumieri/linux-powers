@@ -43,6 +43,7 @@ A maioria destes comandos terão nomes extremamente curtos para serem rápidos d
 
 O comando `ls` lista o conteúdo do diretório.
 Se você acabou de abrir o seu emulador de terminal, provavelmente o que lhe será apresentado como reposta é o conteúdo de seu diretório _home_.
+Para visualizar uma lista do que temos no diretório basta digitar `ls` e apertar `↵` (_Enter_):
 
 ![ls no diretório home](media/ls.gif)
 
@@ -50,35 +51,6 @@ Este diretório que é seu "lar" (_home_) é representado também como til (`~`)
 O motivo para isto é histórico, os teclados dos anos 70 (ADM-3A) para se digitar o til utilizava-se a tecla _home_.
 
 [Mais…](file-system/ls.md)
-
-## Parâmetros
-
-Ou também chamados de argumentos, são valores informados à direita de algum comando.
-estes parâmetros são repassados para o comando que tem então seu comportamento alterado.
-
-O uso de parâmetros é bastante intuitivo,
-cada palavra ou número separada por um ou mais espaços em branco (` `) será considerada um parâmetro diferente.
-
-Existem outros caracteres que tem uma importância especial para o `bash`, que vai além do seu significado literal.
-Portanto são tratados de uma forma diferenciada e não são repassados como parâmetros.
-Para ver a lista completa destes caracteres, veja a sessão de [caracteres especiais para o bash](shell/bash.md#caracteres-especiais).
-
-Nos casos onde algum destes caracteres deveria fazer parte do parâmetro que você quer passar, a solução é simples:
-basta colocar o parâmetro todo entre aspas simples (`'`), exemplo:
-```bash
-echo 'Olá mundo!'
-```
-
-Outra forma de fazer o mesmo é utilizando a barra invertida (`\`) antes do caractere que deveria ser ignorado por esse tratamento especial do `bash` e só repassada adiante.
-Exemplo:
-```bash
-echo Olá\ mundo\!
-```
-
-Neste exemplo, o espaço logo após a palavra `Olá` está sendo ignorado pelo interpretador `bash` e simplesmente entendido como parte do parâmetro, da mesma forma que o ponto de exclamação.
-Por causa deste comportamento, a barra invertida também é chamada de caractere de escape.
-
-[Mais…](shell/bash.md)
 
 ## Estrutura de diretórios
 
@@ -122,6 +94,35 @@ Isso acontece por questões de segurança, executar alguma coisa sempre envolve 
 ![pwd no diretório home](media/pwd.gif)
 
 O _output_ (ou resposta) do `pwd` então é o _path_ (caminho) "absoluto" de onde executamos este comando.
+
+## Parâmetros
+
+Ou também chamados de argumentos, são valores informados à direita de algum comando.
+estes parâmetros são repassados para o comando que tem então seu comportamento alterado.
+
+O uso de parâmetros é bastante intuitivo,
+cada palavra ou número separada por um ou mais espaços em branco (` `) será considerada um parâmetro diferente.
+
+Existem outros caracteres que tem uma importância especial para o `bash`, que vai além do seu significado literal.
+Portanto são tratados de uma forma diferenciada e não são repassados como parâmetros.
+Para ver a lista completa destes caracteres, veja a sessão de [caracteres especiais para o bash](shell/bash.md#caracteres-especiais).
+
+Nos casos onde algum destes caracteres deveria fazer parte do parâmetro que você quer passar, a solução é simples:
+basta colocar o parâmetro todo entre aspas simples (`'`), exemplo:
+```bash
+echo 'Olá mundo!'
+```
+
+Outra forma de fazer o mesmo é utilizando a barra invertida (`\`) antes do caractere que deveria ser ignorado por esse tratamento especial do `bash` e só repassada adiante.
+Exemplo:
+```bash
+echo Olá\ mundo\!
+```
+
+Neste exemplo, o espaço logo após a palavra `Olá` está sendo ignorado pelo interpretador `bash` e simplesmente entendido como parte do parâmetro, da mesma forma que o ponto de exclamação.
+Por causa deste comportamento, a barra invertida também é chamada de caractere de escape.
+
+[Mais…](shell/bash.md)
 
 ## Comando `cd`
 
