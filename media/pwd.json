@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 10,
+  "duration": 3.952826,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.107713,
+      "\u001b]777;notify;Command completed;asciinema rec ~/Projects/linux-powers/media/ls.json\u0007\u001b]0;rgumieri@midgard:~\u0007\u001b]7;file://midgard/home/rgumieri\u0007"
+    ],
+    [
+      0.000192,
+      "[rgumieri@midgard ~]$ "
+    ],
+    [
+      3.08636,
+      "p"
+    ],
+    [
+      0.124392,
+      "w"
+    ],
+    [
+      0.072098,
+      "d"
+    ],
+    [
+      0.555781,
+      "\r\n/home/rgumieri\r\n"
+    ],
+    [
+      0.005185,
+      "\u001b]777;notify;Command completed;pwd\u0007\u001b]0;rgumieri@midgard:~\u0007\u001b]7;file://midgard/home/rgumieri\u0007"
+    ],
+    [
+      4.5e-05,
+      "[rgumieri@midgard ~]$ "
+    ]
+  ]
+}

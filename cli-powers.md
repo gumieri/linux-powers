@@ -117,7 +117,11 @@ Isso acontece por questões de segurança, executar alguma coisa sempre envolve 
 
 ## Comando `pwd`
 
-O comando `pwd`
+É uma sigla para _print the working directory_, ou seja, mostre o diretório em que estou trabalhando no momento.
+
+![pwd no diretório home](media/pwd.gif)
+
+O _output_ (ou resposta) do `pwd` então é o _path_ (caminho) "absoluto" de onde executamos este comando.
 
 ## Comando `cd`
 
