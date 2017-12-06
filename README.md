@@ -1,7 +1,9 @@
-# _Linux_ powers
+# Guia dos imperadores
 
-Uma tentativa de descrever os "poderes" do mundo _Linux_ para iniciantes.
+Coleção de textos com explicações sobre sistemas operacionais Linux / Unix.
 
-## Índice
+## Lista de tomos, ou índice
 
-- [`grep`](grep-powers.md) - Como buscar padrões, palavras ou textos dentro de arquivos.
+- [_Command-Line Interface_](cli.md) - Sobre a interface de linha de comandos.
+
+- [Comando `grep`](grep.md) - Como buscar padrões, palavras ou textos dentro de arquivos.

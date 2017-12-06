@@ -1,4 +1,4 @@
-# **`grep` powers**. Exemplos de usos
+# Comando `grep`
 
 A história do `grep` é um tanto antiga. Nascido no UNIX e hoje presente em praticamente todos os sistemas _unix-like_ (Linux, MacOS, FreeBSD, etc).
 Portanto, é uma ferramenta que você terá acesso com bastante facilidade. Esta ferramenta serve para buscar um padrão, uma palavra ou texto dentro de arquivos e _streams_.
