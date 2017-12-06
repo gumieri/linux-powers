@@ -1,4 +1,4 @@
-# `Bash` powers
+# `bash`
 
 ## Caracteres especiais
 

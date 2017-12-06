@@ -1,4 +1,4 @@
-# _CLI_ powers
+# _Command-Line Interface_
 
 Uma das primeiras formas de se comunicar com computadores foi através de texto.
 Estes primeiros terminais eram conectados a impressoras de telégrafo ([teletipos](https://pt.wikipedia.org/wiki/Teletipo)) que imprimiam em papel o que lhes era pedido.
@@ -63,8 +63,8 @@ A estrutura de diretórios nos _Linux_ e _Unix_ consiste em um diretório raíz 
 
 O diretório raís é referenciado por uma barra (`/`) e a partir dele é possível chegar a qualquer arquivo ou outro diretório dentro do sistema.
 
-O diretório _home_ que é representado pelo `~` (til) encontra-se pelo caminho `/home/` e tem o nome de seu usuário, que seria por exemplo `/home/powers/` para um usuario nomeado _powers_,
-Para o usuário _powers_, o `~` referencia este diretório.
+O diretório _home_ que é representado pelo `~` (til) encontra-se pelo caminho `/home/` e tem o nome de seu usuário, que seria por exemplo `/home/wizard/` para um usuario nomeado _wizard_,
+Para o usuário _wizard_, o `~` referencia este diretório.
 Estes são caminhos "absolutos", tem essa denominação pelo motivo de que estes caminhos indicam como chegar a um diretório (ou arquivo) a partir da raís do sistema.
 Isso porque este caminho (ou _path_, em inglês) inicia com `/`, sem qualquer palavra antes desta barra, a única referencia que se pode assumir é que esta é a referencia à raís.
 
@@ -75,9 +75,9 @@ Existem mais dois pontos a serem abordados sobre caminhos relativos:
 1. o `.` (ponto);
 2. e o `..` (ponto duplo, ou ponto-ponto).
 
-O `.` é uma referência ao diretório atual, considerando que você esteja em `/home/powers/Documents/`, o `.` é uma referência para este diretório.
+O `.` é uma referência ao diretório atual, considerando que você esteja em `/home/wizard/Documents/`, o `.` é uma referência para este diretório.
 
-Enquanto o `..` é uma referência ao diretório "pai" (ou _parent_), o diretório que contém o diretório atual, neste caso seria o `/home/powers/`.
+Enquanto o `..` é uma referência ao diretório "pai" (ou _parent_), o diretório que contém o diretório atual, neste caso seria o `/home/wizard/`.
 
 Todo diretório possui uma referência a ele mesmo (`.`) e ao seu _parent_ (`..`), no caso do diretório `/`, seu parent é ele mesmo.
 O `.` é muito utilizado em casos que queremos executar algum arquivo que está logo no diretório que estamos:
