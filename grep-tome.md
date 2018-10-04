@@ -62,7 +62,7 @@ Como o uso padrão do `grep` é para encontrar a linha contendo a _string_ busca
 Porém é possível retornar somente o padrão buscado, o que faz sentido em casos de busca por regex onde a intenção é encontrar este padrão para usa-lo em algum outro local.
 Para isso existe a _flag_ `-o` (ou `--only-matching`).
 ```bash
-ls -l jars/*.jar | grep -Eo '([0-9]+)\.([0-9]+)\.([0-9]+)(?:\.(R[0-9]+))?')
+ls -l jars/*.jar | grep -Eo '([0-9]+)\.([0-9]+)\.([0-9]+)(?:\.(R[0-9]+))?)'
 ```
 (exemplo buscando a versão definida no nome de algum arquivo `jar` no padrão `11.22.33.R44`)
 
